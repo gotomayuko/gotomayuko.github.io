@@ -1,0 +1,42 @@
+body{
+	margin: 0;
+}
+
+div[class~="test"]{
+	text-align: center;
+	background-color:orange; 
+	width: 200px;
+	height: 100px;
+	border-width: 4px;
+	border-color: black;
+	padding: 20px;
+	margin: 20px;
+	display: inline-block;
+
+}
+
+p { color: skyblue; }
+
+img[class~="top"]{
+	width: 800px;
+	display: block;
+ margin-left: auto;
+ margin-right: auto;
+
+}
+
+
+a:link { color: balck; }
+a:visited { color: balck; }
+a:hover { color: balck; }
+a:active { color: balck; }
+
+.center{
+ text-align: center;
+}
+
+.yohaku{
+	background-color: red;
+	width: 1000px;
+	height: 1000px;
+}
