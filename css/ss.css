@@ -30,7 +30,8 @@
 
   .nav-container{
     height: 45px;
-    width: 80%;
+    width: 75%;
+    max-width: 1080px;
     margin: 0 auto;
   }
 
@@ -51,6 +52,17 @@
   .navToggleList{
     display: none;
   }
+
+  .fa {
+  display: inline-block;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 3;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  }
+
 
   .nav-container ul {
     float: right;
@@ -78,7 +90,8 @@
   /*----------main----------*/
   .topimage{
     margin-top: 100px;
-    width: 70%;
+    width: 75%;
+    max-width: 800px;
   }
 
 
