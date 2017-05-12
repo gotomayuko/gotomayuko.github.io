@@ -65,7 +65,7 @@
     list-style-type: none;
     text-align: center;
     line-height: 45px;
-    font-size: 15px;
+    font-size: 16px;
 /*    transition: color 0.2s linear;*/
   }
 
@@ -77,8 +77,8 @@
 
   /*----------main----------*/
   .topimage{
-    margin-top: 70px;
-    width: 75%;
+    margin-top: 100px;
+    width: 70%;
   }
 
 
@@ -96,6 +96,12 @@
 
 
 /*---------nav------------*/
+  .nav-container {
+    height: 45px;
+    width: 91%;
+    margin: 0 auto;
+  }
+
   .nav-container ul {
     display: none;
   }
@@ -107,7 +113,7 @@
       cursor:pointer;
       line-height: 40px;
       width: 25px;
-      height: 40px;
+      height: 45px;
       position: relative;
   }
 
