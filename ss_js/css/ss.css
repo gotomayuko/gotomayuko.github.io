@@ -1,0 +1,203 @@
+@charset "UTF-8";
+
+/*----------common----------*/
+  body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family : "メイリオ",'Source Sans Pro', Verdana, "Hiragino Kaku Gothic ProN", "游ゴシック",YuGothic, Meirio, sans-serif;
+    text-align: center;
+  }
+
+  a{
+    text-decoration: none;
+    color: #000;
+  }
+
+/*  .clear {
+    clear: both;
+  }*/
+
+
+/*-----------------------PC-----------------------*/
+
+/*----------nav----------*/
+  .nav-wrapper {
+    height: 45px;
+    width: 100%;
+    background-color: rgba(255,255,255,0.5);
+  }
+
+  .nav-container{
+    height: 45px;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .fixed {
+  position: fixed;
+  top: 0px;
+/*  z-index: 90;*/
+  }
+
+  .nav-container h1 {
+    float: left;
+    -webkit-margin-before: 0px;
+    -webkit-margin-after: 0px;
+    line-height: 45px;
+    font-size: 22px;
+  }
+
+  .navToggleList{
+    display: none;
+  }
+
+  .nav-container ul {
+    float: right;
+    -webkit-margin-before: 0px;
+    -webkit-margin-after: 0px;
+  }
+
+  .nav-container li {
+    float: left;
+    display: inline-block;
+    margin-left: 60px; 
+    list-style-type: none;
+    text-align: center;
+    line-height: 45px;
+    font-size: 15px;
+/*    transition: color 0.2s linear;*/
+  }
+
+  .nav-container li:hover {
+    cursor: pointer;
+    color: #41c991;
+  }
+
+
+  /*----------main----------*/
+  .topimage{
+    margin-top: 70px;
+    width: 75%;
+  }
+
+
+  /*----------footer----------*/
+  .footer-container {
+    margin-top: 200px;
+/*    line-height: 100px;*/
+    text-align: center;
+    font-size: 16px;
+  }
+
+
+/*-----------------------SP-----------------------*/
+@media all and (max-width: 750px) {
+
+
+/*---------nav------------*/
+  .nav-container ul {
+    display: none;
+  }
+
+/*---------nav toggle---------*/
+
+  #navToggle {
+      float: right;
+      cursor:pointer;
+      line-height: 40px;
+      width: 25px;
+      height: 40px;
+      position: relative;
+  }
+
+  #navToggle span {
+      display:block;
+      position:absolute; 
+      width:100%;
+      border-bottom:solid 2px #000;
+      -webkit-transition: .35s ease-in-out;
+      -moz-transition: .35s ease-in-out;
+      transition: .35s ease-in-out;
+  }
+
+  #navToggle span:nth-child(1) {
+    top:28%;
+  }
+
+  #navToggle span:nth-child(2) {
+    top:50%;
+  }
+
+  #navToggle span:nth-child(3) {
+    top:72%;
+  }
+
+  .active1 {
+    -webkit-transform: rotate(315deg);
+    transform: rotate(315deg) translateY(3.5px) translateX(-9px);
+  }
+
+  .active2 {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg) ;
+    opacity: 0;
+  }
+
+  .active3 {
+    -webkit-transform: rotate(405deg);
+    transform: rotate(405deg) translateY(-4px) translateX(-9px);
+    }
+
+  .navToggleList {
+    width: 100%;
+    background-color: rgba(255,255,255,0.5);
+    display: none;
+  }
+
+  .navToggleList ul {
+    float: none;
+    width: 60%;
+    margin: 0 auto;
+    -webkit-padding-start: 0px;
+  }
+
+  .navToggleList li {
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    line-height: 90px;
+    display: block;
+/*    border-bottom: 1px solid rgba(255,255,255,0.4);*/
+  }
+
+  .navToggleList li:active {
+    color: #41c991;
+  }
+
+  .border {
+    border-bottom: 0 !important;
+  }
+
+  .open {
+    display: block;
+    position: absolute;
+  }
+
+
+/*----------main----------*/
+  .topimage {
+    width: 100%;
+    margin-top: 100px;
+  }
+
+
+/*----------footer----------*/
+  .footer-container {
+    margin-top: 200px;
+    text-align: center;
+    font-size: 16px;
+  }
+
+
+}
