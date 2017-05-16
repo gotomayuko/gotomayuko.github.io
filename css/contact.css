@@ -1,0 +1,36 @@
+/*-----------------------PC-----------------------*/
+/*----------main----------*/
+
+  /*contact*/
+  .contactbox{
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 250px;
+    font-size: 15px;
+  }
+
+  .contactbox .mail{
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+
+
+/*-----------------------SP-----------------------*/
+@media all and (max-width: 750px) { 
+
+
+  /*contact*/
+  .contactbox{
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 250px;
+    font-size: 15px;
+  }
+
+  .contactbox .mail{
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+}

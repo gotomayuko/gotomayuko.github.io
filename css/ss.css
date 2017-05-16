@@ -14,9 +14,11 @@
     color: #000;
   }
 
-/*  .clear {
+  .clearfix::after{
+    content: "";
+    display: block;
     clear: both;
-  }*/
+  }
 
 
 /*-----------------------PC-----------------------*/
@@ -25,7 +27,7 @@
   .nav-wrapper {
     height: 45px;
     width: 100%;
-    background-color: rgba(255,255,255,0.5);
+    background-color: rgba(255,255,255,0.7);
   }
 
   .nav-container{
@@ -88,6 +90,7 @@
 
 
   /*----------main----------*/
+  /*top*/
   .topimage{
     margin-top: 100px;
     width: 75%;
@@ -170,7 +173,7 @@
 
   .navToggleList {
     width: 100%;
-    background-color: rgba(255,255,255,0.5);
+    background-color: rgba(255,255,255,0.7);
     display: none;
   }
 
@@ -185,9 +188,14 @@
     color: #fff;
     font-size: 20px;
     text-align: center;
-    line-height: 90px;
+/*    line-height: 80px;*/
+    margin: 40px;
     display: block;
 /*    border-bottom: 1px solid rgba(255,255,255,0.4);*/
+  }
+
+  .fa{
+    line-height: 0;
   }
 
   .navToggleList li:active {
@@ -205,10 +213,12 @@
 
 
 /*----------main----------*/
+/*top*/
   .topimage {
     width: 100%;
     margin-top: 100px;
   }
+
 
 
 /*----------footer----------*/
