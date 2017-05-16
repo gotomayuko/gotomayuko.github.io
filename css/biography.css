@@ -1,0 +1,28 @@
+/*-----------------------PC-----------------------*/
+/*----------main----------*/
+
+  /*biography*/
+  .biography-box{
+    width: 75%
+    max-width: 1080px;
+    margin: 0 auto;
+    margin-top: 250px;
+    font-size: 15px;
+  }
+
+
+
+/*-----------------------SP-----------------------*/
+@media all and (max-width: 750px) { 
+
+
+  /*biography*/
+  .biography-box{
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 250px;
+    font-size: 15px;
+  }
+
+  
+}

@@ -90,11 +90,36 @@
 
 
   /*----------main----------*/
-  /*top*/
+  .main{
+    margin: 0 auto;
+    width: 75%;
+    max-width: 800px;    
+  }
+
   .topimage{
     margin-top: 100px;
-    width: 75%;
-    max-width: 800px;
+    width: 100%;
+/*    width: 75%;
+    max-width: 800px;*/
+  }
+
+  .news-container{
+    margin-top: 40px;
+    text-align: left;
+/*    width: 75%;
+    max-width: 1080px;*/
+  }
+
+  .news-container .title{
+    font-size: 22px;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 4px;
+  }
+
+  .news-container .comment{
+    font-size: 15px;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
   }
 
 
@@ -213,10 +238,32 @@
 
 
 /*----------main----------*/
-/*top*/
+.main{
+    margin: 0 auto;
+    width: 100%;
+  }
+
   .topimage {
     width: 100%;
     margin-top: 100px;
+  }
+
+  .news-container{
+    margin: 40px auto;
+    width: 91%;
+    text-align: left;
+  }
+
+  .news-container .title{
+    font-size: 22px;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 4px;
+  }
+
+  .news-container .comment{
+    font-size: 15px;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
   }
 
 
