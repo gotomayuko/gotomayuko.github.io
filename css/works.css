@@ -45,6 +45,16 @@
 
 
   /*works*/
+  .img-container{
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 100px;
+  }
+
+  .thumbnail{
+    width: 100px;
+    height: 100px;
+  }
 
   
 }
